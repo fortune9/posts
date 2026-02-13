@@ -1,0 +1,24 @@
+---
+title: Transcriptional adaptation mediated by mRNA decay
+date: "`r Sys.Date()`"
+author: "Zhenguo Zhang"
+format:
+    gfm:
+        toc: false
+        code-fold: true
+---
+
+## Overview 📚
+
+**Transcriptional adaptation** is a cellular mechanism where cells upregulate related genes in response to genetic perturbations, effectively masking deleterious phenotypes of mutations.
+
+## Recent Discovery 🔬
+
+El-Brolosy et al. (2026) revealed a novel mechanism in *Science*: degraded mRNAs mediate transcriptional adaptation by binding to antisense transcripts of related genes,  which activates transcription of compensatory genes 🧬. This process is guided by the protein **ILF3**.
+
+## Significance 💡
+
+This discovery unveils a new regulatory dimension of mRNA decay and provides important insights into how cells adapt to genetic perturbations.
+
+**Reference:** https://www.science.org/doi/10.1126/science.aea1272
+
