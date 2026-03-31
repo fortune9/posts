@@ -1,0 +1,19 @@
+---
+title: Make AI agents smarter with skills
+date: "`r Sys.Date()`"
+author: "Zhenguo Zhang"
+format:
+    gfm:
+        toc: false
+        code-fold: true
+---
+
+🚀 **Supercharge Your AI Coding Agents with Skills!**
+
+Tired of repeating the same instructions to your AI agent or struggling with complex workflows? 🎯 Agent skills are reusable instruction sets that extend your AI agents with specialized knowledge and workflows. They work across platforms—Claude Code, GitHub Copilot, Cursor, Gemini CLI, and Qwen Code—letting you standardize team conventions and share expertise effortlessly.
+
+Getting started is simple! 💡 Pre-built skills from repositories like skills.sh (443K+ installs), Vercel Labs, and Posit Dev are ready to use. Install them with the `npx skills` command: `npx skills add posit-dev/skills --skill r-package-development -a gemini-cli`. Want to create custom skills? Check out the [VS Code guide](https://code.visualstudio.com/docs/copilot/customization/agent-skills) to learn the SKILL.md format.
+
+Ready to dive deeper? 🎉 I've created a comprehensive guide covering installation, popular repositories, and best practices: https://github.com/fortune9/programming_learning_notes/blob/main/AI/agent-skills/agent-skills-guide.md. Let's make our AI coding assistants work smarter together!
+
+#AI #AgentSkills #DeveloperTools #ClaudeCode #GitHubCopilot #Cursor #Productivity #SoftwareEngineering
