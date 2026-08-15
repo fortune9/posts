@@ -55,7 +55,10 @@ def generate(title, subtitle, output_path, theme="tech", color="#00ff7f"):
             draw_dna(draw, random.randint(0, width), random.randint(0, height), 100, color_rgb)
     else: # Default/Network
         for _ in range(12):
-            draw.ellipse([random.randint(0, width), random.randint(0, height), random.randint(0, width)+20, random.randint(0, height)+20], outline=color_rgb)
+            x = random.randint(0, width - 100)
+            y = random.randint(0, height - 100)
+            r = random.randint(10, 50)
+            draw.ellipse([x, y, x + r*2, y + r*2], outline=color_rgb)
 
     # Text Styling
     font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
