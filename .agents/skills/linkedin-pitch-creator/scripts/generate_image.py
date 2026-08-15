@@ -63,20 +63,20 @@ def generate(title, subtitle, output_path, theme="tech", color="#00ff7f"):
     # Text Styling
     font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
     try:
-        t_font = ImageFont.truetype(font_path, 100)
-        s_font = ImageFont.truetype(font_path, 50)
+        t_font = ImageFont.truetype(font_path, 65)
+        s_font = ImageFont.truetype(font_path, 40)
     except:
         t_font = s_font = ImageFont.load_default()
 
     def centered_text(text, font, y, fill):
         w = draw.textbbox((0, 0), text, font=font)[2]
         x = (width - w) / 2
-        draw.text((x+5, y+5), text, font=font, fill=(0,0,0)) # Shadow
+        draw.text((x+4, y+4), text, font=font, fill=(0,0,0)) # Shadow
         draw.text((x, y), text, font=font, fill=fill)
 
-    centered_text(title, t_font, 350, (255, 255, 255))
-    centered_text(subtitle, s_font, 480, color_rgb)
-    draw.line([400, 580, 1400, 580], fill=color_rgb, width=6)
+    centered_text(title, t_font, 220, (255, 255, 255))
+    centered_text(subtitle, s_font, 330, color_rgb)
+    draw.line([400, 420, 1400, 420], fill=color_rgb, width=4)
 
     base.save(output_path, dpi=(300, 300))
 
